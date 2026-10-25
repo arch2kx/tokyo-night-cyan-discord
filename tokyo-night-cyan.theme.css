@@ -1,0 +1,140 @@
+/**
+ * @name Tokyo Night Cyan
+ * @author arch2kx
+ * @version 1.0.0
+ * @description Cyan accent, higher contrast text and deep status colors on top of frostqween's Tokyo Night theme.
+ * @source https://github.com/arch2kx/tokyo-night-cyan-discord
+ */
+@import url("https://raw.githubusercontent.com/frostqween/TokyoNightDiscordTheme/main/tokyo-night.css");
+
+.theme-dark {
+  --header-secondary: #8f9ac8;
+  --text-muted: #8f9ac8;
+  --interactive-normal: #8f9ac8;
+  --interactive-hover: #b3bde8;
+  --custom-theme-text-color-amount: 80%;
+  --channel-text-area-placeholder: #8089b3;
+  --channels-default: #8f9ac8;
+  --channel-icon: #8f9ac8;
+  --text-tertiary: #8089b3;
+  --badge-notification-background: #d03a4e;
+}
+
+.numberBadge_df8943 {
+  background-color: #d03a4e !important;
+}
+
+.circleIconButton__5bc7e:hover {
+  background-color: #2a7f4f !important;
+}
+
+[data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8 {
+  color: #1a1b26;
+}
+
+.membersGroup_c8ffbb {
+  color: #8f9ac8;
+}
+
+.botTagRegular_a02df3,
+.botTagRegular_c89c9a {
+  color: #1a1b26 !important;
+}
+
+.calendarPicker__47c85 .react-datepicker__day--selected,
+.calendarPicker_d27f17 .react-datepicker__day--selected {
+  color: #1a1b26 !important;
+}
+
+.keybind_df5532 {
+  color: #8f9ac8;
+}
+
+.premiumTab_c10c74[aria-selected="true"] {
+  background-color: #7a5cc7 !important;
+}
+
+.lookFilled-yCfaCM.colorYellow-Pgtmch {
+  background-color: #9c6200 !important;
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+  background-color: #2a7f4f !important;
+}
+
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+  background-color: #d03a4e !important;
+}
+
+.button_e5cc00 {
+  color: #1a1b26;
+}
+
+#app-mount .hljs-comment {
+  color: #8f9ac8;
+}
+
+#app-mount .hljs-comment .hljs-doctag {
+  color: #8f9ac8;
+}
+
+#app-mount .wrapper_d4fa29:hover {
+  color: #1a1b26;
+}
+
+.container-2nx-BQ[style*="background-color: rgb(59, 165, 92)"],
+[class*="switch"][class*="valueChecked"] {
+  background-color: #2a7f4f !important;
+}
+
+.notice__31870[class*="colorDanger"] {
+  background-color: #d03a4e;
+}
+
+.notice__31870[class*="colorWarning"] {
+  background-color: #9c6200;
+}
+
+.notice__31870[class*="colorPositive"] {
+  background-color: #2a7f4f;
+}
+
+.notice__31870[class*="colorStreamer"] {
+  background-color: #7a5cc7;
+}
+
+.theme-dark {
+  --accent-color: #7dcfff;
+  --text-link: #7dcfff;
+  --brand-experiment: #7dcfff;
+  --brand-experiment-360: #7dcfff;
+  --brand-experiment-400: #7dcfff;
+  --brand-experiment-430: #5fc3f2;
+}
+
+.theme-dark {
+  --brand-500: #7dcfff;
+  --brand-560: #5fc3f2;
+  --text-brand: #7dcfff;
+  --button-filled-brand-background: #7dcfff;
+  --button-filled-brand-background-hover: #97d9ff;
+  --button-filled-brand-text: #1a1b26;
+}
+
+.theme-dark {
+  --badge-notification-text: #fff;
+  --background-feedback-notification: #d03a4e;
+}
+
+[class*="numberBadge"] {
+  background-color: #d03a4e !important;
+  color: #fff !important;
+}
+
+:is([class*="newMessagesBar"], [class*="jumpToPresentBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover), :is([class*="newMessagesBar"], [class*="jumpToPresentBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover) * {
+  color: #1a1b26 !important;
+}
+
+:is([class*="newMessagesBar"], [class*="jumpToPresentBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover) svg, :is([class*="newMessagesBar"], [class*="jumpToPresentBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover) svg :not([fill="none"]) {
+  fill: #1a1b26 !important;
+}
