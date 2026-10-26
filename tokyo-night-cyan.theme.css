@@ -1,7 +1,7 @@
 /**
  * @name Tokyo Night Cyan
  * @author arch2kx
- * @version 1.0.0
+ * @version 1.0.1
  * @description Cyan accent, higher contrast text and deep status colors on top of frostqween's Tokyo Night theme.
  * @source https://github.com/arch2kx/tokyo-night-cyan-discord
  */
@@ -131,10 +131,35 @@
   color: #fff !important;
 }
 
-:is([class*="newMessagesBar"], [class*="jumpToPresentBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover), :is([class*="newMessagesBar"], [class*="jumpToPresentBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover) * {
+:is([class*="newMessagesBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover), :is([class*="newMessagesBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover) * {
   color: #1a1b26 !important;
 }
 
-:is([class*="newMessagesBar"], [class*="jumpToPresentBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover) svg, :is([class*="newMessagesBar"], [class*="jumpToPresentBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover) svg :not([fill="none"]) {
+:is([class*="newMessagesBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover) svg, :is([class*="newMessagesBar"], [class*="botTagRegular"], .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled__201d5.colorBrand__201d5, .iconBadge__650eb, .button_e5cc00, .react-datepicker__day--selected, [data-list-item-id*="guildsnav___home"] .childWrapper__6e9f8, .notice__31870[class*="colorInfo"], #app-mount .wrapper_d4fa29:hover) svg :not([fill="none"]) {
   fill: #1a1b26 !important;
+}
+
+[class*="jumpToPresentBar"] {
+  color: #c0caf5;
+}
+
+[class*="jumpToPresentBar"] button {
+  background-color: #7dcfff !important;
+  color: #1a1b26 !important;
+}
+
+[class*="jumpToPresentBar"] button * {
+  color: inherit !important;
+}
+
+[class*="containerDefault"]:not(:hover):not(:has([class*="modeUnread"], [class*="modeSelected"], [class*="modeConnected"])) :is([class*="name_"], [class*="icon_"]) {
+  color: #8f9ac8 !important;
+}
+
+[class*="containerDefault"]:hover :is([class*="name_"], [class*="icon_"]) {
+  color: #c0caf5 !important;
+}
+
+[class*="containerDefault"]:has([class*="modeUnread"]) :is([class*="name_"], [class*="icon_"]) {
+  color: #e6ebff !important;
 }
